@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manikandan M - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>Hi, I'm <span>Manikandan M</span></h1>
+    <p>Java Developer | BE-CSE Final Year</p>
+    <img src="photo.jpg" alt="Manikandan Photo">
+    <a href="photo1.pdf" download class="btn">Download Resume</a>
+    <button class="mode-toggle">🌙</button>
+  </header>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Final year BE-CSE student at Mahendra Institute of Technology. Skilled in Java, MySQL, HTML, CSS, Hibernate. Passionate about problem solving and building efficient applications.</p>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h2>Education</h2>
+    <ul class="timeline">
+      <li><span>2021</span> - Started BE-CSE at Mahendra Institute of Technology</li>
+      <li><span>2025</span> - Final Year, Project: Library Management System</li>
+    </ul>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skill">
+      <p>Java</p>
+      <div class="bar"><div class="fill" style="width: 90%"></div></div>
+    </div>
+    <div class="skill">
+      <p>MySQL</p>
+      <div class="bar"><div class="fill" style="width: 85%"></div></div>
+    </div>
+    <div class="skill">
+      <p>HTML & CSS</p>
+      <div class="bar"><div class="fill" style="width: 80%"></div></div>
+    </div>
+    <div class="skill">
+      <p>Hibernate</p>
+      <div class="bar"><div class="fill" style="width: 75%"></div></div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Library Management System</h3>
+      <p>Developed using Java & MySQL. Features: book issue/return, fine calculation, admin/student login.</p>
+      <a href="#">GitHub Link</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>📧 <a href="mailto:manikandanmayil2004@gmail.com" target="_blank">Email Me</a></p>
+    <p>💬 <a href="https://wa.me/916381988818" target="_blank">WhatsApp Chat</a></p>
+    <p>🔗 <a href="https://www.linkedin.com/in/manikandan-m-a56077339" target="_blank">LinkedIn Profile</a></p>
+  </section>
+
+  <!-- Chatbot -->
+  <button class="chat-toggle">💬</button>
+  <div id="chatbot">
+    <div id="messages"></div>
+    <input type="text" id="userInput" placeholder="Ask me something...">
+    <button onclick="sendMessage()">Send</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
